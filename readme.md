@@ -50,7 +50,7 @@ mutable and immutable objects in php 5.6 and 7.1. Samples were taken on
 takes longer to deal with immutable objects. However, immutable performance
 on 7.1 is dlightly better that the mutable on 5.6.
 
-##Disclamer
+## Disclamer
 
 The code presented in this repository is free for use in any context.
 However, no guarantees are given and any usage is at own risk.
