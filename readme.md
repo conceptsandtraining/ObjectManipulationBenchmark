@@ -50,6 +50,16 @@ mutable and immutable objects in php 5.6 and 7.1. Samples were taken on
 takes longer to deal with immutable objects. However, immutable performance
 on 7.1 is dlightly better that the mutable on 5.6.
 
+## Usage
+
+To gather data use 
+
+**./run_bench_with_settings.sh mut ref target**
+
+The parameters **mut** and **ref** should be 1 or 0 and set, wether the trial
+objects are operated mutable of not at all to collect reference measurements.
+**target** ist the filetitle of a csv used to store benchmark results. 
+
 ## Disclamer
 
 The code presented in this repository is free for use in any context.
